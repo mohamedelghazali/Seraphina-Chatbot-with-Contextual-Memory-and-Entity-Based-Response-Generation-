@@ -1,0 +1,4 @@
+mysql-connector-python==8.0.33  # Connects Python with MySQL
+fuzzywuzzy==0.18.0             # Fuzzy string matching for spelling correction
+unidecode==1.3.6               # Standardizes characters (e.g., accents)
+spacy==3.5.0                   # NLP processing (if used for tokenization)
