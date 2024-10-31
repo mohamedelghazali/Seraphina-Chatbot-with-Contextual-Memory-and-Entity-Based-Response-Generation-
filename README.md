@@ -56,9 +56,11 @@ Database Connector: `mysql.connector` for Python-MySQL connection.
 # Installation and Setup
 1- **Clone the Repository:**
 `git clone https://github.com/mohamedelghazali/chatbot-contextual-memory.git`
-`cd chatbot-contextual-memory` 
+`cd chatbot-contextual-memory` .
+
 2- **Set up the MySQL Database:**
-Create a MySQL database for storing intents and entities.
+Create a MySQL database for storing intents and entities .
+
 Update `db_config.py` with your MySQL connection details:
 
 `db_config = {
@@ -67,10 +69,12 @@ Update `db_config.py` with your MySQL connection details:
     'host': 'your_host',
     'database': 'your_database'
 }
-`
-3- **Install Required Python Packages:**
-pip install -r requirements.txt
-`pip install -r requirements.txt`
+` . 
+
+3- **Install Required Python Packages:** 
+
+`pip install -r requirements.txt` . 
+
 4- **Prepare Spelling Correction File:**
 Edit `data/corr.txt` to include commonly misspelled words for your use case.
 5- **Run the Chatbot:**
