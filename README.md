@@ -74,9 +74,15 @@ Update `db_config.py` with your MySQL connection details:
 3- **Install Required Python Packages:** 
 
 `pip install -r requirements.txt` . 
+**Additional Steps**
+
+Optional - Install spaCy model (if tokenization or more NLP processing is needed):
+`python -m spacy download en_core_web_sm` . 
+
 
 4- **Prepare Spelling Correction File:**
-Edit `data/corr.txt` to include commonly misspelled words for your use case.
+Edit `data/corr.txt` to include commonly misspelled words for your use case. 
+
 5- **Run the Chatbot:**
 `python main.py`
 
