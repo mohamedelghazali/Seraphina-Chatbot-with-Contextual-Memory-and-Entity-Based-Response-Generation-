@@ -30,10 +30,15 @@ Error Handling and Logging: Error checks in database operations and interactions
 .
 ├── data/
 │   └── corr.txt                  # Spelling correction dictionary .
+
 ├── main.py                        # Main file with chatbot logic and database connection .
+
 ├── imports.py                     # Import configurations . 
+
 ├── models_config.py               # Configuration for models . 
+
 ├── db_config.py                   # MySQL database configurations . 
+
 └── README.md                      # Project README file . 
 
 main.py: Core of the chatbot logic, handling entity processing, context saving, and response generation.
