@@ -74,6 +74,7 @@ Update `db_config.py` with your MySQL connection details:
 3- **Install Required Python Packages:** 
 
 `pip install -r requirements.txt` . 
+
 **Additional Steps**
 
 Optional - Install spaCy model (if tokenization or more NLP processing is needed):
